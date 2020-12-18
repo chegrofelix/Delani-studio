@@ -3,10 +3,12 @@ h1 {
 }
 .header {
     background-image: url("../images/h_img.jpg");
-    padding: 80px;
+    padding: 120px;
+    margin-top: 0%;
+    color: aliceblue;
 }
 @media screen and (min-width: 900px) {
     body {
-      background-color: lightgreen;
+      background-color: #d68060;
     }
   }
