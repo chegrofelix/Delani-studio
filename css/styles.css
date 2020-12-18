@@ -1,3 +1,12 @@
 h1 {
     font-family: 'Ribeye';
 }
+.header {
+    background-image: url("../images/h_img.jpg");
+    padding: 80px;
+}
+@media screen and (min-width: 900px) {
+    body {
+      background-color: lightgreen;
+    }
+  }
