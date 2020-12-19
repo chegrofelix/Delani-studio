@@ -2,7 +2,7 @@ h1 {
     font-family: 'Ribeye';
 }
 .header {
-    background-image: url("../images/h_img.jpg");
+    background-image: url("../images/h_img.jpg" );
     padding: 120px;
     margin-top: 0%;
     color: aliceblue;
@@ -12,3 +12,4 @@ h1 {
       background-color: #d68060;
     }
   }
+
