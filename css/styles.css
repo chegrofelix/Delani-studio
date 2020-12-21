@@ -2,9 +2,9 @@ h1 {
     font-family: 'Ribeye';
 }
 .header {
-    background-image: url("../images/h_img.jpg" );
-    padding: 120px;
-    margin-top: 0%;
+    background-image: url("../images/h_img.jpg");
+    text-align: center;
+    padding: 25%;
     color: aliceblue;
 }
 @media screen and (min-width: 900px) {
@@ -29,5 +29,32 @@ h1 {
     padding-top: 10%;
     padding-bottom: 10%;
 }
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    padding:  2%;
+    padding-right: 10%;
+  }
+  .column {
+    flex: 25%;
+    max-width: 15%;
+    padding:  2%;
+  }
+  
+  .column img {
+    margin-top: 5%;
+    vertical-align: middle;
+    width: 80%;
+  }
+  @media screen and (max-width: 800px) {
+    .column {
+      flex: 50%;
+      max-width: 50%;
+    }
+  }
+  .container1 {
+      text-align: center;
+  }
+
 
     
