@@ -1,10 +1,11 @@
 h1 {
     font-family: 'Ribeye';
+    font-size: 60px;
 }
 .header {
     background-image: url("../images/h_img.jpg");
     text-align: center;
-    padding: 25%;
+    padding: 15%;
     color: aliceblue;
 }
 @media screen and (min-width: 900px) {
@@ -63,7 +64,14 @@ h1 {
      padding: 5%;
      background-color: #0f0f0f;
      color: aliceblue;
+     width:inherit;
     
  }
-
+ p {
+     font-family: 'Courier New', Courier, monospace;
+     font-size: 30px;
+ }
+footer > img {
+    padding: 30px;
+}
     
