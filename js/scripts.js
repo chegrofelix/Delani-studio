@@ -1,5 +1,5 @@
 //alert("hello")
-jQuery('h1').click(function(){
+/*jQuery('h1').click(function(){
     alert("This is a heading tag")
   });
 
@@ -9,10 +9,11 @@ jQuery('h1').click(function(){
 
   jQuery('img').click(function(){
     alert("This is an image")
+  });*/
+     $(document).ready(function() {
+     $(".container1").click(function() {
+     $(".column1 p").toggle();
+     $(".column2 p").toggle();
+     $(".column3 p").toggle();
+    });
   });
-  //*$(document).ready(function() {
-    //$(".clickable").click(function() {
-      //$("#walrus-showing").toggle();
-      //$("#walrus-hidden").toggle();
-   // });
-  //});

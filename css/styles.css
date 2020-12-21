@@ -4,7 +4,7 @@ h1 {
 }
 h1:hover {
   color: #0f0f0f;
-  background-color: #03506f;
+  background-color: #db6400;
 }
 .header {
     background-image: url("../images/h_img.jpg");
@@ -93,6 +93,8 @@ h2:hover {
 }
 .container1 p {
   display: none;
+  background-color: #edf285;
+  font-size: 18px;
 }
 .container3 {
   text-align: center;
