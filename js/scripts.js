@@ -13,7 +13,15 @@
      $(document).ready(function() {
      $(".container1").click(function() {
      $(".column1 p").toggle();
-     $(".column2 p").toggle();
-     $(".column3 p").toggle();
     });
   });
+  $(document).ready(function() {
+    $(".container1").click(function() {
+    $(".column2 p").toggle();
+   });
+ });
+ $(document).ready(function() {
+  $(".container1").click(function() {
+  $(".column3 p").toggle();
+ });
+});
