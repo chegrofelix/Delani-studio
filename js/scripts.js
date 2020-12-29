@@ -12,8 +12,8 @@
   });*/
      $(document).ready(function() {
      $(".container1").click(function() {
-     $(".column1 p").toggle();
-     $(".column2 p").toggle();
-     $(".column3 p").toggle();
+     $(".col-1 p").toggle();
+     $(".col-2 p").toggle();
+     $(".col-3 p").toggle();
     });
   });
