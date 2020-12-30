@@ -9,12 +9,13 @@ h1:hover {
 .header {
     background-image: url("../images/h_img.jpg");
     text-align: center;
-    padding: 15%;
+    padding: 30px;
     color: aliceblue;
 }
 @media screen and (min-width: 900px) {
     body {
       background-color: #d68060;
+      height: 100%;
     }
   }
 #about {
@@ -59,7 +60,7 @@ h1:hover {
   }
   .container1 {
       text-align: center;
-      padding: 10px;
+      justify-content: space-evenly;
   }
  .container2 {
      text-align: center;
@@ -74,7 +75,7 @@ h1:hover {
     
  }
  p {
-     font-family: 'Courier New', Courier, monospace;
+     font-family: 'Redressed';
      font-size: 30px;
  }
 footer > img {
@@ -94,7 +95,7 @@ h2:hover {
 }
 .container1 p {
   display: none;
-  background-color: #edf285;
+  /*background-color: #edf285;*/
   font-size: 18px;
 }
 .container3 {
@@ -108,5 +109,17 @@ h3 {
 h3:hover {
   color: black;
   background-color: aquamarine;
+}
+#some-element {
+  /*border: 1px solid #ccc;*/
+  display: none;
+  font-size: 10px;
+  margin-top: 10px;
+  padding: 10px;
+  text-transform: uppercase;
+}
+
+#some-div:hover #some-element {
+  display: block;
 }
     
