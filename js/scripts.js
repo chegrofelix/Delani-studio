@@ -17,3 +17,13 @@
      $(".col-3 p").toggle();
     });
   });
+  $(document).ready(function() {
+    $(".container1").click(function() {
+    $(".column2 p").toggle();
+   });
+ });
+ $(document).ready(function() {
+  $(".container1").click(function() {
+  $(".column3 p").toggle();
+ });
+});
