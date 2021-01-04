@@ -102,7 +102,8 @@ h2:hover {
 }
 .container3 {
   text-align: center;
-  background-image: url(../images/c_image.jpg);
+  /*background-image: url(../images/c_image.jpg);*/
+  padding: 10px;
 }
 h3 {
   font-family: monospace;
