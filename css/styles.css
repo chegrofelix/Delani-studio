@@ -44,13 +44,14 @@ h1:hover {
   .column {
     flex: 25%;
     max-width: 15%;
-    padding:  2%;
+    padding:  2px;
+    justify-content: space-evenly;
   }
   
   .column img {
-    margin-top: 5%;
-    vertical-align: middle;
-    width: 80%;
+    margin-top: 5px;
+    vertical-align:auto;
+    width: 200px;
   }
   @media screen and (max-width: 800px) {
     .column {
@@ -61,11 +62,11 @@ h1:hover {
   .container1 {
       text-align: center;
       justify-content: space-evenly;
-      padding: 40px;
+      padding: 0px;
   }
  .container2 {
      text-align: center;
-     padding: 4%;
+     padding: 0px;
  }
  footer {
      padding: 5%;

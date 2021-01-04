@@ -12,9 +12,9 @@
   });*/
      $(document).ready(function() {
      $(".container1").click(function() {
-     $(".col-1 p").toggle();
-     $(".col-2 p").toggle();
-     $(".col-3 p").toggle();
+     $(".col-md p").toggle();
+     $(".col-md p").toggle();
+     $(".col-md p").toggle();
     });
   });
   $(document).ready(function() {
@@ -27,3 +27,4 @@
   $(".column3 p").toggle();
  });
 });
+
